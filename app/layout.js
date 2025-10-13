@@ -23,6 +23,9 @@ const comfortaa = Comfortaa({
 export const metadata = {
   title: "Portfolio - Anmol Munir",
   description: "UI/UX Designer & Frontend Developer Portfolio",
+  icons: {
+    icon: "/profile.png",
+  },
 };
 
 export default function RootLayout({ children }) {
