@@ -6,7 +6,7 @@ export default function UiuxDesign() {
       title: "plant Care landing Page",
       description:
         " A modern plant care website designed in Figma, featuring a clean layout, vibrant colors, and user-friendly navigation.",
-      image: "/plants.png",
+      image: "/plant-2.png",
       figmafile: "https://www.figma.com/design/hI4YVnXCTywl5YhprNmgXH/plant-care?node-id=0-1&t=HbkKMCcqAj0Qoinl-1"
     },
     {
