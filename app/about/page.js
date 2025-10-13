@@ -42,9 +42,17 @@ function AboutPage() {
             functional and user-friendly.”
           </p>
 
-          <button className="bg-[#FDC435] text-black font-bold px-8 py-3 rounded-md hover:bg-yellow-500 transition duration-300 shadow-md">
-            Resume
-          </button>
+          <a 
+  href=" https://drive.google.com/file/d/1J137suO39Asg5CO6mwCg0IqS8Gp_49r5/view?usp=drivesdk"
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <button  
+    className="bg-[#FDC435] text-black font-bold px-8 py-3 rounded-md hover:bg-yellow-500 transition duration-300 shadow-md">
+      Resume
+  </button>
+</a>
+
         </div>
       </div>
       <footer className="flex flex-col items-center py-10 space-y-4">
