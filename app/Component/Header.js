@@ -31,8 +31,8 @@ export default function Header() {
         </div>
 
           <div className="flex space-x-6 mt-12">
-            <button className="bg-[#FDC435] text-lg font-bold font-comfortaa py-3 px-10 rounded-md  hover:bg-yellow-500 transition duration-300">
-            E-Mail
+            <button className="bg-[#FDC435] text-nowrap text-lg font-bold font-comfortaa py-3 px-10 rounded-md  hover:bg-yellow-500 transition duration-300">
+            projects
             </button>
             <button className="border-2 border-[#FDC435] text-lg font-bold font-comfortaa py-3 px-10 rounded-md hover:bg-yellow-500 transition duration-300 ">
               LinkedIn
