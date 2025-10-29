@@ -13,7 +13,7 @@ export default function Projects() {
     {
       title: "Recipedia",
       description:
-        "Capture Studio – A modern photography portfolio website designed in Figma and developed with Next.js & Tailwind. Features elegant galleries and smooth animations.",
+        "Recipedia is a modern recipe-sharing web app that helps users discover, save, and organize dishes from around the world. Built with Next.js and Tailwind CSS, it focuses on clean UI and smooth user experience.",
       image: "/recipedia-2.png",
       live: "https://vercel.com/anmoljs-projects/recipedia",
       github: "https://github.com/anmoljs/recipedia",
@@ -21,7 +21,7 @@ export default function Projects() {
     {
       title: "Explore Kashmir",
       description:
-        "Personal Portfolio Website – Designed in Figma and developed with Next.js, Tailwind, and custom UI components to showcase projects, skills, and contact info.",
+        "A digital journey through paradise on earth — Explore Kashmir lets users discover stunning landscapes, local culture, and hidden gems of the valley with an immersive web experience.",
       image: "/kashmir.png",
       live: "https://vercel.com/anmoljs-projects/explore-kashmir-v2mf",
       github: "https://github.com/anmoljs/explore-kashmir",

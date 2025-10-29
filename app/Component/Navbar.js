@@ -10,8 +10,8 @@ export default function Navbar() {
 
   const links = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Projects", href: "#projects" }, 
+    { name: "Projects", href: "#projects" },
+    { name: "About", href: "/about" }, 
     { name: "Contact", href: "/contact" },
   ];
 
@@ -42,7 +42,7 @@ export default function Navbar() {
                 href={link.href}
                 className={`font-comfortaa text-[20px] font-bold transition ${
                   pathname === link.href
-                    ? "text-yellow-500 border-b-2 border-yellow-500"
+                    ? "text-yellow-500 border-b-2 border-yellow-500 capitalize"
                     : "hover:text-yellow-500"
                 }`}
               >

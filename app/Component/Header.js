@@ -1,53 +1,53 @@
-"use client"
+"use client";
+
 export default function Header() {
   return (
-    <header className="max-w-7xl mx-auto px-8 py-16">
-      <div className="flex flex-col md:flex-row items-center justify-between gap-12">
-        
-        {/* Left Side: Text */}
-        <div className="flex-1">
-          <h1 className="text-xl font-bold font-comfortaa text-[#FDC435] capitalize">
-            
+    <header className="flex flex-col md:flex-row items-center justify-between min-h-screen md:py-0 py-12 px-6 md:px-32 gap-10">
+      {/* Left Side: Text */}
+      <div className="md:w-1/2 max-w-xl mx-auto text-center md:text-left">
+        <h1 className="text-xl font-bold font-comfortaa text-[#FDC435] capitalize">
+          Frontend Web Developer & Designer
+        </h1>
 
-            Frontend Web Developer & Designer
-          </h1>
+        <p className="text-4xl md:text-6xl font-medium font-comfortaa leading-tight capitalize mt-6">
+          Hello, my name is Anmol Munir
+        </p>
 
-          <p className="text-4xl md:text-6xl font-medium font-comfortaa max-w-2xl leading-tight capitalize  mt-6">
-             hello,my name is anmol munir
-          </p>
-          
+        <p className="text-xl font-medium font-comfortaa leading-relaxed mt-6">
+          I’m a Frontend Web Developer and Designer, passionate about blending
+          creativity with code. I build websites that are not only functional
+          but also visually engaging.
+        </p>
 
-          <p className="text-xl font-medium font-comfortaa max-w-2xl leading-relaxed  mt-6">
-            I’m a Frontend Web Developer and Designer, passionate about blending
-            creativity with code. I build websites that are not only functional
-            but also visually engaging.
-          </p>
-          <div className="flex-1 block py-12 justify-center md:hidden md:justify-end md:ml-44">
-          <img
-            src="/header.png"
-            alt="profile"
-            className="w-[400px] md:w-[500px] lg:w-[600px] h-auto  object-cover"
-          />
+        {/* Buttons */}
+        <div className="flex justify-center md:justify-start space-x-6 mt-12">
+          <a
+  href="mailto:anmolasim.awan@gmail.com"
+  className="bg-[#FDC435] text-black font-bold px-10 py-3 rounded-md transition duration-300"
+>
+  E-mail
+</a>
+
+          <a
+                  href="https://www.linkedin.com/in/anmol-munir-a294212b8"
+                  
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border border-[#FDC435] text-[#FDC435] font-bold px-10 py-3 rounded-md hover:bg-yellow-50 transition duration-300"
+                >
+                  LinkedIn
+                </a>
+                  
         </div>
+      </div>
 
-          <div className="flex space-x-6 mt-12">
-            <button className="bg-[#FDC435] text-nowrap text-lg font-bold font-comfortaa py-3 px-10 rounded-md  hover:bg-yellow-500 transition duration-300">
-            projects
-            </button>
-            <button className="border-2 border-[#FDC435] text-lg font-bold font-comfortaa py-3 px-10 rounded-md hover:bg-yellow-500 transition duration-300 ">
-              LinkedIn
-            </button>
-          </div>
-        </div>
-
-        {/* Right Side: Image */}
-        <div className="flex-1 hidden md:block justify-center md:justify-end md:ml-44">
-          <img
-            src="/header.png"
-            alt="profile"
-            className="w-[400px] md:w-[500px] lg:w-[600px] h-auto  object-cover"
-          />
-        </div>
+      {/* Right Side: Image */}
+      <div className="md:w-1/2 flex justify-center md:justify-end">
+        <img
+          src="/coding.png"
+          alt="Coding illustration"
+          className="w-[300px] md:w-[450px] lg:w-[500px] object-contain"
+        />
       </div>
     </header>
   );
