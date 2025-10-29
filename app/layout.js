@@ -22,9 +22,9 @@ const comfortaa = Comfortaa({
 
 export const metadata = {
   title: "Portfolio - Anmol Munir",
-  description: "UI/UX Designer & Frontend Developer Portfolio",
+  description: " Frontend web Developer & Designer",
   icons: {
-    icon: "/profile.png",
+    icon: "/coding.png",
   },
 };
 
